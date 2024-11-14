@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+#username{
+    width: 15%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#img{
+    width: 100%;
+    border-radius: 50%;    
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    gap: 20px;
+}
+.content{
+    color: white;
+    font-size: 2rem;
+}
+
+@media (max-width:768px){
+    #username{
+        width: 60%;
+    }
+}
